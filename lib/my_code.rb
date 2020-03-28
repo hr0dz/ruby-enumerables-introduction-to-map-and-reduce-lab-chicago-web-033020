@@ -47,7 +47,7 @@ def reduce_to_total(source_array, starting_point=0)
 end
 
 def reduce_to_all_true(source_array)
- if ((source_array.all? && source_array.any?) || source_array.any?)
+ if ((source_array.all? && source_array.any?) || 
    return true
  else 
    return false
