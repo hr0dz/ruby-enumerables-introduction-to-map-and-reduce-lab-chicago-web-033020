@@ -41,6 +41,8 @@ def reduce_to_total(source_array, starting_point)
   x = starting_point.any?(Integer)
   if x
   total = starting_point
+else
+  total = 0
   while i < source_array.length do
     total += source_array[i]
       i += 1
