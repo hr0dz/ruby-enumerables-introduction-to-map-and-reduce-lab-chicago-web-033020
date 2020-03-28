@@ -36,7 +36,7 @@ def map_to_double(source_array)
     new_array3
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array, starting_point=0)
   i = 0
   x = starting_point.any?(Integer)
 if x
