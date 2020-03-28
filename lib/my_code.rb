@@ -44,6 +44,7 @@ if x
 else
   total = 0
 end
+total = 0
   while i < source_array.length do
     total += source_array[i]
       i += 1
