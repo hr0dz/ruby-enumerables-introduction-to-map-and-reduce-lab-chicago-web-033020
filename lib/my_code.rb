@@ -39,7 +39,7 @@ end
 def reduce_to_total(source_array, starting_point)
   i = 0
   x = starting_point.any?(Integer)
-  if x
+if x
   total = starting_point
 else
   total = 0
